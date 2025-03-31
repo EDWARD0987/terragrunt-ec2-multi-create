@@ -24,10 +24,22 @@ resource "aws_instance" "ec2_instance_1" {
   ami           = var.ami
   instance_type = var.instance_type
   availability_zone = var.az1
+
+   tags = {
+    Name        = "vm-1"
+    Environment = "production"
+    Owner       = "cloud_user"
+  }
 }
 
 resource "aws_instance" "ec2_instance_2" {
   subnet_id     = data.aws_subnet.zone2.id
   ami           = var.ami
   instance_type = var.instance_type
+
+   tags = {
+    Name        = "vm-2"
+    Environment = "production"
+    Owner       = "cloud_user"
+  }
 }

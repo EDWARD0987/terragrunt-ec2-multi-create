@@ -1,10 +1,16 @@
 # TASK FOR TERRAGRUNT 
 1 -  Your manager has requested you to set up 2 ec2 instances in different AZ's in order to host a new application that is beign tested
+
 2 - check to see if teragrunt and terraform is installed
+
 3 -  You will need to create a folder structure 
+
 4 - check to see if teragrunt and terraform is installed
+
 5 - Make ec2 directory and cd into that and create a modules directory and then a terragrunt.hcl file
+
 6 - Go into modules folder and create 3 different files => variables.tf outputs.tf and main.tf
+
 7 - After creating the files go back into ec2 folder and edit the terragrunt.hcl file => inside here we have a terraform block which is how terraform will interact with terragrunt, THE INPUTS BLOCK TERRAGRUNT SET ANY INPUTS WE WANT TO PASS IN AS ENV VARIABLES
 
 

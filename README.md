@@ -15,6 +15,31 @@
 
 
 
+Create the Directory Structure for the Terragrunt Project
+
+Check that Terraform is installed and functioning properly.
+Check that Terragrunt is installed and functioning properly.
+Create a new directory to house your Terraform code called ec2-instances.
+In the ec2-instances directory, create a directory called module.
+Also create a terragrunt.hcl file in the same ec2-instances directory.
+Write Your Terragrunt Module Code
+
+In the module directory, create a new file called main.tf and add the provided code.
+Create a new file called variables.tf and add the provided code.
+Create a new file called outputs.tf and add the provided code.
+Write Your terragrunt.hcl File Code
+
+Create a new file called terragrunt.hcl and add the provided code.
+
+Deploy Your Code and Verify Resources Were Launched in AWS
+
+Initialize the Terragrunt configuration to fetch any required providers and get the code being referenced in the module block.
+Validate the code.
+Review the actions that will be performed when you deploy the code.
+Deploy the code.
+View the resources that were created.
+Tear down the infrastructure.
+
 # create a directory structure for the terragrunt project
 # create the ec2 instance directory
 mkdir ec2-instances 
